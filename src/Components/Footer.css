@@ -28,7 +28,7 @@
 }
 
 .contents h4 {
-  margin-left: 15%;
+  margin-left: 12%;
 }
 
 .foot-list {
@@ -49,7 +49,7 @@
 }
 
 .foot-right {
-  width: 8%;
+  width: 9%;
   display: flex;
   align-items: center;
   margin-left: 5%;
@@ -61,7 +61,7 @@
   display: flex;
   align-items: center;
   margin: auto;
-  width: 80%;
+  width: 85%;
   height: 40px;
 }
 
