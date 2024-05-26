@@ -1,0 +1,109 @@
+.container {
+  display: flex;
+  width: 50%;
+  height: 65vh;
+  margin: 9% auto;
+  border: 2px solid red;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(184, 180, 180);
+}
+
+.back {
+  width: 50%;
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  margin: auto;
+}
+
+.sign-message {
+  width: 80%;
+  height: 70%;
+  margin: 40% auto;
+  align-items: center;
+  color: white;
+}
+
+.sign-message h1 {
+  margin: 25px;
+}
+
+.sign-message p {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.sign-message button {
+  margin: 5% 30%;
+  width: 40%;
+  height: 12%;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background-color: blue;
+  cursor: pointer;
+}
+
+.signup-bar {
+  width: 50%;
+  height: 100%;
+  border-radius: 0 10px 10px 0;
+}
+
+.sign-content {
+  margin: 15% auto;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.sign-content h1 {
+  margin: 15px 10%;
+  font-size: 37px;
+}
+
+.sign-content .social {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.social a {
+  color: black;
+}
+
+.sign-content p {
+  font-size: 15px;
+  margin-left: 25%;
+}
+
+.sign-content .inputs {
+  width: 80%;
+  margin: auto;
+  align-items: center;
+}
+
+.inputs input {
+  width: 100%;
+  height: 4.5vh;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.sign-content button {
+  margin: 5% 34%;
+  width: 40%;
+  height: 5vh;
+  border-radius: 20px;
+  background-color: blue;
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}

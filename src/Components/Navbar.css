@@ -1,0 +1,88 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  height: 65px;
+  width: 97%;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  width: 740px;
+}
+
+.items h2 {
+  font: bold;
+  font-family:railway;
+}
+
+.items h2:hover{
+    color: rgb(101, 105, 108);
+    cursor: pointer;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  font-size: 14px;
+  color: gray;
+  font: bold;
+}
+
+.nav-list li {
+  margin-left: 18px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+
+
+.nav-list li:hover{
+    /* border: 2px solid red; */
+    cursor: pointer;
+    color: blue;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 320px;
+  color: gray;
+  font-size: 15px;
+}
+
+.right-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 320px;
+  color: gray;
+  font-size: 15px;
+}
+
+.nav-right h3 {
+  font-size: large;
+}
+
+.nav-right h3:hover {
+  cursor: pointer;
+}
+
+.nav-right button {
+  height: 35px;
+  align-items: center;
+  background-color: rgb(205, 95, 113);
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 5px;
+  color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,106 @@
+.container {
+  display: flex;
+  width: 50%;
+  height: 65vh;
+  margin: 9% auto;
+  border: 2px solid red;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(184, 180, 180);
+}
+
+.signin {
+  width: 50%;
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.log-content {
+  margin: 15% auto;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.log-content h1 {
+  margin: 20px 33%;
+  font-size: 37px;
+}
+
+.log-content .social {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.social a {
+  color: black;
+}
+
+.log-content p {
+  font-size: 15px;
+  margin-left: 32%;
+}
+
+.log-content .inputs {
+  width: 80%;
+  margin: auto;
+  align-items: center;
+}
+
+.inputs input {
+  width: 100%;
+  height: 4.5vh;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.log-content button {
+  margin: 8% 34%;
+  width: 40%;
+  height: 5vh;
+  border-radius: 20px;
+  background-color: blue;
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  border: none;
+}
+
+.signup {
+  width: 50%;
+  height: 100%;
+  background-color: rgb(234, 81, 81);
+  border-radius: 0 10px 10px 0;
+}
+
+.message {
+  width: 80%;
+  height: 70%;
+  margin: 40% auto;
+  align-items: center;
+  color: white;
+}
+
+.message h1 {
+  margin: 25px;
+}
+
+.message p {
+  font-size: 15px;
+}
+
+.message button {
+  margin: 5% 30%;
+  width: 40%;
+  height: 12%;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background-color: blue;
+}
