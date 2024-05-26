@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   margin: auto;
-  height: 65px;
+  height: 62px;
   width: 97%;
 }
 
@@ -15,12 +15,12 @@
 
 .items h2 {
   font: bold;
-  font-family:railway;
+  font-family: railway;
 }
 
-.items h2:hover{
-    color: rgb(101, 105, 108);
-    cursor: pointer;
+.items h2:hover {
+  color: rgb(101, 105, 108);
+  cursor: pointer;
 }
 
 .nav-list {
@@ -40,12 +40,10 @@
   font-weight: 500;
 }
 
-
-
-.nav-list li:hover{
-    /* border: 2px solid red; */
-    cursor: pointer;
-    color: blue;
+.nav-list li:hover {
+  /* border: 2px solid red; */
+  cursor: pointer;
+  color: blue;
 }
 
 .nav-right {
